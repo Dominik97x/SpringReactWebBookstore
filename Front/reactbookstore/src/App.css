@@ -1,0 +1,212 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.mainContainer {
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.figure img {
+  width: 150px !important;
+  height: 200px !important;
+}
+
+.toolbar_logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* CSS storny do */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background: #455a64 !important;
+  height: 100 !important;
+}
+
+/* navigation bar */
+.navbar-right:focus,
+.navbar-right :hover {
+  color: #ddd !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 18px;
+}
+
+/* bestsellers */
+
+h2 {
+  margin: 40px 0 0 22px !important;
+  font-family: "Times New Roman", Times;
+  color: black;
+  text-shadow: 1px 1px #888;
+  letter-spacing: 2px;
+}
+.book-container {
+  height: 440px;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.book-item {
+  position: relative;
+  display: inline-block;
+  margin: 8px 8px;
+  box-shadow: 2px 2px 4px #bbb;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 300px;
+  height: 410px;
+  vertical-align: bottom;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* banner  */
+
+.carousel-inner > .carousel-item > img {
+  height: calc(
+    130px + (600 - 130) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+/* footer */
+
+.container-fluid {
+  overflow: hidden;
+  margin-top: 250px;
+  background: #262626 !important ;
+  color: #627482 !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+small {
+  font-size: calc(
+    13px + (16 - 13) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+H3 {
+  font-size: calc(
+    25px + (50 - 25) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.social {
+  font-size: 70px;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-youtube-play {
+  color: #bb0000;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* contact CSS */
+
+.contact-form {
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form {
+  padding: 14%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
